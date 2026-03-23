@@ -30,8 +30,7 @@ public class GoogleTest {
 
         
         String title = driver.getTitle();
-        System.out.println("Page Title: " + title);
-        System.out.println("Title Test Passed");
+        
         // Close browser
         driver.quit();
     }
